@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
 }
 
@@ -10,12 +11,23 @@
 }
 
 header{
+    position:relative;
+    height: 80px;
     background-color: #F5F8FA;
+    border-bottom: 1px solid #CBD6E2;
 }
 
 .h-box{
-    height: 85px;
-    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding:20px 0;
+}
+
+.h-box::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 nav{
@@ -23,8 +35,34 @@ nav{
 }
 
 nav .nav-box{
-    height: 85px;
-    border: 3px solid black;
+    height: 90px;
+}
+
+nav .l-nav-box{
+    float: left;
+    position:relative;
+    width: 50%;
+    height: 90px;
+}
+
+.l-nav-box img{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 120px;
+}
+
+nav .r-nav-box{
+    float: right;
+    position:relative;
+    width: 50%;
+    height: 90px;
+}
+
+.r-nav-ul{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
 }
 
 section{
@@ -33,7 +71,15 @@ section{
 
 section .new-box{
     height: 100px;
-    border: 3px solid black;
+}
+
+.last-news{
+    height: 100px;
+    padding:20px 0;
+}
+
+.last-news p{
+    padding:0 20px;
 }
 
 .main{
@@ -42,7 +88,6 @@ section .new-box{
 
 .main-jumbo-box{
     height: 650px;
-    border: 3px solid black;
 }
 
 .info-service{
@@ -51,7 +96,6 @@ section .new-box{
 
 .in-se-box{
     height: 800px;
-    border: 3px solid black;
 }
 
 .info-community{
@@ -60,7 +104,6 @@ section .new-box{
 
 .in-comm-box{
     height: 650px;
-    border: 3px solid black;
 }
 
 .customers{
@@ -69,7 +112,6 @@ section .new-box{
 
 .cust-box{
     height: 185px;
-    border: 3px solid black;
 }
 
 .start-today{
@@ -78,7 +120,6 @@ section .new-box{
 
 .start-box{
     height: 420px;
-    border: 3px solid black;
 }
 
 .end-footer{
@@ -87,5 +128,30 @@ section .new-box{
 
 .end-box{
     height: 120px;
-    border: 3px solid black;
+}
+
+ul{
+    font-size: 20px;
+}
+
+li{
+    display: block;
+    float: left;
+    list-style: none;
+}
+
+li.left{
+    border-right: 2px solid #CBD6E2;
+}
+
+.fa-globe{
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 18px;
 }
