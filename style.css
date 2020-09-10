@@ -94,6 +94,10 @@ section .new-box{
     width: 40%;
 }
 
+.r-mj-box h1{
+    padding: 20px 0;
+}
+
 .p-r-mj-box{
     font-size: 20px;
     margin: 10px 0;
@@ -121,17 +125,24 @@ section .new-box{
     height: 100%;
 }
 
+.grid-one::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .text{
-    display: inline-block;
+    padding: 20px;
+    float: left;
     width: 33%;
     height: 400px;
 }
 
 .services{
     padding: 20px;
+    float: left;
     width: 33%;
     height: 400px;
-    display: inline-block;
     background-color: #FFFFFF;
     box-shadow: 0 0 11px #eaf0f6;
 }
@@ -142,24 +153,62 @@ section .new-box{
 }
 
 .in-comm-box{
-    position: relative;
     height: 650px;
 }
 
 .inner-comm-box{
-    padding: 50px 0;
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
+    padding: 100px 0;
+    max-width: 710px;
     text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.inner-comm-box h2{
+    padding: 20px 0;
 }
 
 .customers{
+    padding: 100px;
     background-color: #FFFFFF;
 }
 
 .cust-box{
     height: 185px;
+}
+
+.cust-box::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.l-cust-box{
+    float: left;
+    width: 40%
+}
+
+.r-cust-box{
+    float: right;
+    width: 60%;
+}
+
+.img-cust-box::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-box{
+    width: 20%;
+    margin: 20px;
+    float:left;
+}
+
+.img-box img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
 
 .start-today{
@@ -207,5 +256,10 @@ p{
 
 h1{
     font-size: 46px;
-    padding: 20px 0;
+}
+
+h2{
+    margin:0;
+    padding:0;
+    font-size: 35px;
 }
