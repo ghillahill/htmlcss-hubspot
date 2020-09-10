@@ -90,20 +90,68 @@ section .new-box{
     height: 650px;
 }
 
+.r-mj-box{
+    width: 40%;
+}
+
+.p-r-mj-box{
+    font-size: 20px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.inner-r-mj-box{
+    margin-top: 20px;
+    width: 60%;
+    height: 80px;
+}
+
 .info-service{
     background-color: #F5F8FA;
 }
 
 .in-se-box{
-    height: 800px;
+    height: 950px;
+    padding:100px 0 50px;
 }
+
+.grid-one{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    display: inline-block;
+    width: 33%;
+    height: 400px;
+}
+
+.services{
+    padding: 20px;
+    width: 33%;
+    height: 400px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 11px #eaf0f6;
+}
+
 
 .info-community{
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 
 .in-comm-box{
+    position: relative;
     height: 650px;
+}
+
+.inner-comm-box{
+    padding: 50px 0;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
 
 .customers{
@@ -149,9 +197,15 @@ li.left{
 }
 
 a{
+    font-size: 18px;
     text-decoration: none;
 }
 
 p{
     font-size: 18px;
+}
+
+h1{
+    font-size: 46px;
+    padding: 20px 0;
 }
