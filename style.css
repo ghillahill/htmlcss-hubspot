@@ -5,9 +5,12 @@
     box-sizing: border-box;
 }
 
+
 .container{
     width: 1080px;
     margin: auto;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
 }
 
 header{
@@ -35,14 +38,7 @@ header{
 
 .l-h-box li.left{
     border-right: 2px solid #CBD6E2;
-    padding: 0 10px;
-}
-
-.r-h-box{
-    padding: 21px 0;
-    float: right;
-    width: 29%;
-    height: 80px;
+    padding: 0 20px;
 }
 
 .r-h-box ul{
@@ -50,8 +46,14 @@ header{
     display: inline-block;
 }
 
-.r-h-box li i{
-    vertical-align: middle;
+.r-h-box {
+    padding: 18px 0;
+    float: right;
+    width: 30%;
+}
+
+li.right{
+    padding-left: 20px;
 }
 
 .login-link{
@@ -125,12 +127,17 @@ nav .r-nav-box{
     padding-left: 5px;
 }
 
+.r-nav-ul a{
+    font-size: 16px;
+}
+
 
 section{
     background-color: #425B76;
 }
 
 section .new-box{
+    color:#fff;
     height: 100px;
 }
 
@@ -141,6 +148,11 @@ section .new-box{
 
 .last-news p{
     padding: 8px 20px;
+}
+
+.last-news a{
+    color: #fff;
+    text-decoration: underline;
 }
 
 .main{
@@ -167,9 +179,7 @@ section .new-box{
 }
 
 .inner-r-mj-box{
-    margin-top: 20px;
     width: 60%;
-    height: 80px;
 }
 
 .info-service{
@@ -200,11 +210,11 @@ section .new-box{
 }
 
 .services{
+    height: 470px;
     padding: 30px;
     margin-right: 20px;
     margin-bottom: 16px;
     float: left;
-    height: 400px;
     background-color: #FFFFFF;
     box-shadow: 0 0 11px #eaf0f6;
 }
@@ -238,6 +248,10 @@ section .new-box{
 
 .service-bot-box p{
     margin: 15px 0 10px 0;
+}
+
+.info-text{
+    font-weight: lighter;
 }
 
 p.title-ul-text{
@@ -436,13 +450,29 @@ p.title-ul-text{
 }
 
 .l-start-box{
-    width: 42%;
+    width: 44%;
     height: 350px;
     float: left;
 }
 
+.start-link{
+    margin: 30px 0;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 35px;
+    border: 1px solid #FF7A59;
+    border-radius: 3px;
+    background-color: #FF7A59;
+}
+
+.start-link:hover{
+
+}
+
 .r-start-box{
-    width: 58%;
+    width: 56%;
     height: 350px;
     float: right;
 }
@@ -525,8 +555,14 @@ li{
     padding-right: 20px;
 }
 
+.fa-caret-down{
+    color:#7C98B6;
+}
+
 
 a{
+    font-weight: 400;
+    color: #33475B;
     font-size: 18px;
     text-decoration: none;
 }
