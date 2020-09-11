@@ -22,10 +22,10 @@ header{
 }
 
 .l-h-box{
+    padding: 20px 0;
     float: left;
-    width: 50%;
+    width: 40%;
     height: 80px;
-    padding:20px 0;
 }
 
 .l-h-box ul{
@@ -39,16 +39,19 @@ header{
 }
 
 .r-h-box{
-    text-align:right;
-    float: left;
-    width: 50%;
+    padding: 21px 0;
+    float: right;
+    width: 29%;
     height: 80px;
-    padding:20px 0;
 }
 
 .r-h-box ul{
-    padding-top: 10px;
+    padding-top: 2px;
     display: inline-block;
+}
+
+.r-h-box li i{
+    vertical-align: middle;
 }
 
 .login-link{
@@ -56,7 +59,7 @@ header{
     display: inline-block;
     font-size: 14px;
     text-align: center;
-    padding: 8px 24px;
+    padding: 10px 25px;
     border:1px solid #FF7A59;
     border-radius: 3px;
     background-color: #FFFFFF;
@@ -68,7 +71,7 @@ header{
     display: inline-block;
     font-size: 14px;
     text-align: center;
-    padding: 8px 24px;
+    padding: 10px 25px;
     border:1px solid #FF7A59;
     border-radius: 3px;
     background-color: #FF7A59;
@@ -93,31 +96,35 @@ nav .nav-box{
 }
 
 nav .l-nav-box{
+    padding: 25px 0;
     float: left;
-    position:relative;
-    width: 50%;
+    width: 40%;
     height: 90px;
 }
 
 .l-nav-box img{
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
     width: 120px;
 }
 
 nav .r-nav-box{
+    padding: 35px 0;
     float: right;
-    position:relative;
-    width: 50%;
+    width: 60%;
     height: 90px;
 }
 
 .r-nav-ul{
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
+    float: right;
 }
+
+.r-nav-ul li{
+    padding: 0 18px;
+}
+
+.r-nav-ul li i{
+    padding-left: 5px;
+}
+
 
 section{
     background-color: #425B76;
@@ -170,7 +177,6 @@ section .new-box{
 }
 
 .in-se-box{
-    height: 950px;
     padding:100px 0 50px;
 }
 
@@ -187,21 +193,98 @@ section .new-box{
 }
 
 .text{
-    padding: 20px;
+    margin-right:20px;
+    margin-bottom: 16px;
     float: left;
-    width: 33%;
     height: 400px;
 }
 
 .services{
-    padding: 20px;
+    padding: 30px;
+    margin-right: 20px;
+    margin-bottom: 16px;
     float: left;
-    width: 33%;
     height: 400px;
     background-color: #FFFFFF;
     box-shadow: 0 0 11px #eaf0f6;
 }
 
+.services:hover{
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+    transform: scale(1.015);
+}
+
+.text, .services{
+    width: 32%;
+}
+
+.services:nth-child(3){
+    margin-right: 0;
+}
+
+.services:last-child{
+    margin-right: 0;
+}
+
+.service-up-box{
+    margin: 0;
+    padding:0;
+}
+
+.service-bot-box{
+    margin: 0;
+    padding:0;
+}
+
+.service-bot-box p{
+    margin: 15px 0 10px 0;
+}
+
+p.title-ul-text{
+    margin: 12px 0;
+    padding-top: 15px;
+    display: block;
+    border-top: 1px solid #EBEEF3;
+}
+
+.special-list{
+    padding: 5px 0;
+    display: block;
+}
+
+.special-li{
+    padding: 5px 0;
+    float: none;
+    display: list-item;
+    list-style: none;
+}
+
+.special-li::before{
+    content: "";
+    background: url('https://www.hubspot.com/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg') no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.service-link-button{
+    padding-top: 10px;
+}
+
+.slb-link{
+    margin: auto;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px 25px;
+    border: 1px solid #FF7A59;
+    border-radius: 4px;
+    background-color: #FF7A59;
+    width: 100%;
+}
 
 .info-community{
     padding: 100px 0 120px 0;
@@ -294,6 +377,7 @@ section .new-box{
 
 
 .customers{
+    margin-bottom: 50px;
     padding-top: 80px;
     background-color: #FFFFFF;
 }
@@ -438,7 +522,7 @@ li{
 }
 
 .fa-search{
-    padding: 5px 20px 5px 0;
+    padding-right: 20px;
 }
 
 
@@ -459,7 +543,7 @@ h1{
 h2{
     margin:0;
     padding:0;
-    font-size: 35px;
+    font-size: 38px;
 }
 
 h3{
