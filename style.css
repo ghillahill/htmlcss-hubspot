@@ -51,8 +51,27 @@ header{
     display: inline-block;
 }
 
-.r-h-box-a{
+.login-link{
+    color: #FF7A59;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 24px;
+    border:1px solid #FF7A59;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+}
 
+.ghf-link{
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 24px;
+    border:1px solid #FF7A59;
+    border-radius: 3px;
+    background-color: #FF7A59;
 }
 
 .container::after{
@@ -114,7 +133,7 @@ section .new-box{
 }
 
 .last-news p{
-    padding:0 20px;
+    padding: 8px 20px;
 }
 
 .main{
@@ -185,15 +204,21 @@ section .new-box{
 
 
 .info-community{
+    padding: 100px 0 120px 0;
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 
 .in-comm-box{
+    /*
+
     height: 650px;
+    */
+
+
 }
 
 .inner-comm-box{
-    padding: 100px 0;
+    padding: 0 0 100px 0;
     max-width: 710px;
     text-align: center;
     margin: 0 auto;
@@ -203,6 +228,70 @@ section .new-box{
 .inner-comm-box h2{
     padding: 20px 0;
 }
+
+.grid-community-box{
+    width: 1060px;
+    margin: auto;
+    padding: 0px 22px;
+}
+
+.grid-community-box h2{
+    font-size: 50px;
+}
+
+.grid-community-box .up::after{
+    vertical-align: middle;
+    font-size: 20px;
+    content:"+";
+    color: white;
+
+}
+
+.row-cell{
+    border-bottom: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}
+
+.r-row-cell{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.b-row-cell{
+    border-right: 1px solid #FFFFFF;
+
+}
+
+.b-row-cell .img-resize{
+    max-width: 150px;
+    max-height: 100%;
+}
+
+.b-row-cell, .br-row-cell, .r-row-cell, .row-cell{
+    color: #FFF;
+    line-height: 1.2;
+    padding: 20px;
+    height: 190px;
+    float: left;
+    width: 25%;
+}
+
+.img-grid{
+    height: 37px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.text-grid-community{
+    text-align: center;
+}
+
+.grid-community-box::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 .customers{
     padding-top: 80px;
@@ -349,12 +438,12 @@ li{
 }
 
 .fa-search{
-    padding-right: 10px;
+    padding: 5px 20px 5px 0;
 }
 
 
 a{
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 
