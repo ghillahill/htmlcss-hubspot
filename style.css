@@ -6,6 +6,7 @@
 }
 
 
+
 .container{
     width: 1080px;
     margin: auto;
@@ -13,6 +14,9 @@
     font-size: 18px;
 }
 
+
+
+/*_______Inizio Header Languages Log-in_______*/
 header{
     height: 80px;
     background-color: #F5F8FA;
@@ -55,6 +59,7 @@ li.right{
     padding-left: 20px;
 }
 
+/*_______Stile Link/Button Log In_______*/
 .login-link{
     color: #FF7A59;
     display: inline-block;
@@ -66,6 +71,7 @@ li.right{
     background-color: #FFFFFF;
 }
 
+/*_______Stile Link/Button Get Hubspot free_______*/
 .ghf-link{
     color: #FFFFFF;
     display: inline-block;
@@ -77,16 +83,21 @@ li.right{
     background-color: #FF7A59;
 }
 
+/*_______Clearfix_______*/
 .container::after{
     content: "";
     display: table;
     clear: both;
 }
 
+
+
+/*_______Inizio Nav-Bar_______*/
 nav{
     background-color: #FFFFFF;
 }
 
+/*_______Padding per Position Fix dell' header_______*/
 .nav-menu{
     padding-top: 80px;
 }
@@ -128,13 +139,16 @@ nav .r-nav-box{
 .r-nav-ul a{
     font-size: 16px;
 }
+/*_______Fine Nav Bar_______*/
 
 
-section{
+
+/*_______Inizio News Bar_______*/
+.news{
     background-color: #425B76;
 }
 
-section .new-box{
+.new-box{
     color:#fff;
     height: 100px;
 }
@@ -152,7 +166,11 @@ section .new-box{
     color: #fff;
     text-decoration: underline;
 }
+/*_______Fine News Bar_______*/
 
+
+
+/*_______Inizio Main-Jumbo_______*/
 .main{
     background-color: #FFF3EE;
 }
@@ -179,7 +197,11 @@ section .new-box{
 .inner-r-mj-box{
     width: 60%;
 }
+/*_______Fine Main-Jumbo_______*/
 
+
+
+/*_______Inizio Sezione Services_______*/
 .info-service{
     background-color: #F5F8FA;
 }
@@ -207,6 +229,10 @@ section .new-box{
     height: 400px;
 }
 
+.text, .services{
+    width: 32%;
+}
+
 .services{
     height: 470px;
     padding: 30px;
@@ -220,10 +246,6 @@ section .new-box{
 .services:hover{
     box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
     transform: scale(1.015);
-}
-
-.text, .services{
-    width: 32%;
 }
 
 .services:nth-child(3){
@@ -297,7 +319,11 @@ p.title-ul-text{
     background-color: #FF7A59;
     width: 100%;
 }
+/*_______Fine Sezione Services_______*/
 
+
+
+/*_______Inizio Sezione Community_______*/
 .info-community{
     padding: 100px 0 120px 0;
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
@@ -305,11 +331,8 @@ p.title-ul-text{
 
 .in-comm-box{
     /*
-
     height: 650px;
     */
-
-
 }
 
 .inner-comm-box{
@@ -385,9 +408,11 @@ p.title-ul-text{
     display: table;
     clear: both;
 }
+/*_______Fine Sezione Community_______*/
 
 
 
+/*_______Inizio Sezione Customers_______*/
 .customers{
     margin-bottom: 50px;
     padding-top: 80px;
@@ -437,7 +462,11 @@ p.title-ul-text{
     display: table;
     clear: both;
 }
+/*_______Fine Sezione Customers_______*/
 
+
+
+/*_______Inizio Start Growing Today_______*/
 .start-today{
     background-color: #FFFFFF;
 }
@@ -483,13 +512,16 @@ p.title-ul-text{
     transform: translate(0px, -50px);
 }
 
-
 .start-box::after{
     content: "";
     display: table;
     clear: both;
 }
+/*_______Fine Start Growing Today_______*/
 
+
+
+/*_______Inizio Footer_______*/
 .end-footer{
     background-color: #33475B;
 }
@@ -536,15 +568,11 @@ p.title-ul-text{
     display: table;
     clear: both;
 }
+/*_______Fine Footer_______*/
 
 
-li{
-    display: block;
-    float: left;
-    list-style: none;
-}
 
-
+/*_______Generali_______*/
 .fa-globe{
     padding-right: 10px;
 }
@@ -557,6 +585,11 @@ li{
     color:#7C98B6;
 }
 
+li{
+    display: block;
+    float: left;
+    list-style: none;
+}
 
 a{
     font-weight: 400;
@@ -564,7 +597,6 @@ a{
     font-size: 18px;
     text-decoration: none;
 }
-
 
 p{
     font-size: 18px;
