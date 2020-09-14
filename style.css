@@ -29,7 +29,7 @@ header{
 }
 
 .l-h-box{
-    padding: 20px 0;
+    padding: 10px 0;
     float: left;
     width: 40%;
     height: 80px;
@@ -40,9 +40,43 @@ header{
     display: inline-block;
 }
 
-.l-h-box li.left{
+.l-h-box li.l-left{
     border-right: 2px solid #CBD6E2;
-    padding: 0 20px;
+    padding-right: 20px;
+}
+
+.l-left{
+    position: relative;
+    padding: 10px 0 10px 0;
+}
+
+.l-left ul{
+    display: none;
+    position: absolute;
+}
+
+
+.l-left ul li{
+    padding: 5px;
+    display: block;
+}
+
+.l-left ul li a{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.l-left:hover ul{
+    display: block;
+    width: 100%;
+    padding: 15px 5px 15px 5px;
+    position: absolute;
+    top:100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #cbd6e2;
+    border-radius: 3px;
 }
 
 .r-h-box ul{
@@ -55,8 +89,12 @@ header{
     float: right;
 }
 
-li.right{
+.r-right{
     padding-left: 20px;
+}
+
+li.right{
+    padding: 10px 20px 10px 20px;
 }
 
 /*_______Stile Link/Button Log In_______*/
