@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    position: relative;
+}
 
 .container{
     width: 1080px;
@@ -77,6 +79,10 @@ header{
     background-color: #fff;
     border: 1px solid #cbd6e2;
     border-radius: 3px;
+}
+
+.l-left li:hover{
+    background-color: #defdff;
 }
 
 .r-h-box ul{
@@ -639,6 +645,60 @@ p.title-ul-text{
 /*_______Fine Footer_______*/
 
 
+
+/*_______Inizio Chatbox_______*/
+
+.chatbox{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.chat-window{
+    position: fixed;
+    width: 230px;
+    height: 120px;
+    padding: 30px 20px 15px 20px;
+    bottom: 100px;
+    right: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 28px;
+    z-index: 15;
+}
+
+.chat-window img{
+    bottom: 197px;
+    right: 110px;
+    position: fixed;
+    z-index: 20;
+    width: 55px;
+}
+
+.chat-window p{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.blue-circle{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #425B76;
+}
+
+.blue-circle:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 28px;
+}
+
+a .blue-circle{
+    font-size: 35px;
+    color: white;
+}
+
+/*_______Inizio Chatbox_______*/
 
 /*_______Generali_______*/
 .fa-globe{
